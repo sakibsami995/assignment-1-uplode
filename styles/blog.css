@@ -96,6 +96,9 @@ body{
     font-weight: 400;
 }
 /* vision section styles */
+.vision-section{
+    margin-bottom: 30px;
+}
 .vision-card{
     display: flex;
     gap: 20px;
@@ -181,4 +184,30 @@ body{
 .vision-card-button-3:hover{
     background-color: #FFC239;
     color: white;
+}
+/* text-Dr Muhammad-Yunus section style */
+.text-Dr-Muhammad-Yunus{
+    background-image: url("../B11A1--assignment-1/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-color: white;
+    padding: 44px 20px;
+    border-radius: 14px;
+}
+.contant-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 3px;
+}
+.position-titel{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
 }
