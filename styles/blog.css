@@ -193,6 +193,7 @@ body{
     background-color: white;
     padding: 44px 20px;
     border-radius: 14px;
+    margin-bottom: 70px;
 }
 .contant-text{
     font-size: 14px;
@@ -210,4 +211,52 @@ body{
     font-size: 14px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.6);
+}
+/* option style */
+.opinion-titel{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 20px;
+}
+
+.table{
+    padding: 28px;  
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 70px;
+}
+.td-data{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 30px;
+}
+.option-table{
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.th-data{
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 30px;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 19px;
+    color: rgba(14, 14, 14, 1);
+}
+.th{
+    display: flex;
+    justify-content: space-between;
+}
+.option-choice{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Fira Sans", serif;
 }
