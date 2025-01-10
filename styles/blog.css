@@ -260,3 +260,63 @@ body{
     font-weight: 500;
     font-family: "Fira Sans", serif;
 }
+/* recent news section style */
+.news-titel{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 20px;
+}
+.news-des{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 28px;
+}
+.news-img{
+    width: 300px;
+    border-radius: 20px;
+}
+.news-portal{
+    width: 100px;
+    margin-bottom: 8px;
+}
+.news-card{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 44px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.news-card-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 28px;
+    padding: 44px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+}
+.news-card-titel{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 8px;
+}
+.date-time{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 10px;
+}
+.news-card-des{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7); 
+    margin-bottom: 28px;
+}
