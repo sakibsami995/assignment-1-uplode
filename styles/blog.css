@@ -410,6 +410,7 @@ body{
     border: none;
     font-family: "Fira Sans", serif;
     font-size: 14px;
+    border-radius: 7px 0px 0px 7px;
 }
 .subcribe-card{
     display: flex;
