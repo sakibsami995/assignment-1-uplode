@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/blog.css">
 </head>
 <body>
-    <header>
+    <header class="padding">
         <nav>
             <div class="navbar">
                 <h3 class="nav-titel">Bangladesh 2.0</h3>
@@ -27,7 +27,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="padding">
         <!-- Pillars of "Bangladesh 2.0" section -->
          <!-- section.pillar-section>h3.pillar-titel+.pillars-card>.card-text*4>img.card-img+h3.card-titel+p.card-des -->
          <section class="pillar-section">
@@ -135,46 +135,90 @@
                     <h3 class="news-card-titel">Bangladesh Launches New Satellite</h3>
                     <img src="B11A1--assignment-1/assets/al-jazeera.png" alt="" class="news-portal">
                     <div class="date-time">
-                    <p class="date">Date: 05/01/2025</p>
-                    <p class="date">Time: 10.25 PM</p></div>
-                    <p class="news-card-des">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we,
-                        with a certain degree of justification, be able to speak of humankind as civilized</p>
+                    <p class="date">Date: 12/05/2018</p>
+                    <p class="date">Time: 2:14 AM</p></div>
+                    <p class="news-card-des">Bangabandhu-1, Bangladesh's first satellite, launched on May 11, 2018, marked a milestone in the nation's space journey. It provides communication services across South Asia, the Middle East, and Africa. With 40 transponders, it boosts telecommunication, broadcasting, and disaster management capabilities.</p>
                     <button class="btn-primary">Read More</button>
                 </div>
             </div>
             <div class="news-card-2">
-                <img src="B11A1--assignment-1/assets/satelite.png" alt="" class="news-img">
+                <img src="B11A1--assignment-1/assets/img-1.jpeg" alt="" class="news-img">
                 <div class="news-text">
-                    <h3 class="news-card-titel">Bangladesh Launches New Satellite</h3>
+                    <h3 class="news-card-titel">The victory of Bangladesh’s student</h3>
                     <img src="B11A1--assignment-1/assets/al-jazeera.png" alt="" class="news-portal">
                     <div class="date-time">
                     <p class="date">Date: 05/01/2025</p>
                     <p class="date">Time: 10.25 PM</p></div>
-                    <p class="news-card-des">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we,
-                        with a certain degree of justification, be able to speak of humankind as civilized</p>
+                    <p class="news-card-des">On August 5, 2024, the students and people of Bangladesh achieved a historic victory through relentless protests for justice, democracy, and equality. Their movement, driven by youth energy, challenged oppressive systems and demonstrated the power of collective action. This success became a landmark in the nation's fight for reform.</p>
                     <button class="btn-primary">Read More</button>
                 </div>
             </div>
             <div class="news-card">
-                <img src="B11A1--assignment-1/assets/satelite.png" alt="" class="news-img">
+                <img src="B11A1--assignment-1/assets/1674967853248.jpg" alt="" class="news-img">
                 <div class="news-text">
-                    <h3 class="news-card-titel">Bangladesh Launches New Satellite</h3>
+                    <h3 class="news-card-titel">Bangladesh receives $226.73m remittance in 4 days</h3>
                     <img src="B11A1--assignment-1/assets/al-jazeera.png" alt="" class="news-portal">
                     <div class="date-time">
-                    <p class="date">Date: 05/01/2025</p>
-                    <p class="date">Time: 10.25 PM</p></div>
-                    <p class="news-card-des">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we,
-                        with a certain degree of justification, be able to speak of humankind as civilized</p>
+                    <p class="date">Date: 06/01/2025</p>
+                    <p class="date">Time: 6.20 PM</p></div>
+                    <p class="news-card-des">DHAKA, Jan 6, 2025 (BSS) - Expatriate Bangladeshis sent $226.73 million remittances during the first four days of January in the 2024-25 fiscal year.
+                        Of this, remittances through state-owned and specialised banks accounted for $82.31 million, while private banks received $143.99 million, according to Bangladesh Bank (BB) data released today.
+                         
+                        From July to January 4 of the fiscal year, worker-remittance inflows stood at around $14 billion</p>
                     <button class="btn-primary">Read More</button>
                 </div>
             </div>
            
           </selection>
-          
-
+          <!-- Donate section -->
+           <section class="donate">
+            <h3 class="donate-titel">Donate Today</h3>
+            <p class="donate-des">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure.</p>
+            <div class="donate-card">
+                <div class="amount-text">
+                <h3 class="donate-card-text">100 Taka</h3>
+                </div>
+                <div class="amount-text">
+                <h3 class="donate-card-text">200 Taka</h3>
+                </div>
+                <div class="amount-text">
+                <h3 class="donate-card-text">500 Taka</h3>
+                </div>
+                <div class="amount-text">
+                <h3 class="donate-card-text">1000 Taka</h3>
+                </div>
+                
+            </div>
+            <div class="amount">
+            <input class="other-amount" type="text" name="" id="" placeholder="Other Amount (Taka)" size="75%"></div>
+        
+        <input type="submit" value="Donate Now" class="btn-primary">
+           </section>
+           <!-- subscribe section -->
+            <!-- section.subscribe>h3.subscribe-titel+p.subscribe-des+.subcribe-card>input:email.subscribe-email+input:submit.subscribe-email -->
+            <section class="subscribe">
+                <h3 class="subscribe-titel">Subscribe Newsletter</h3>
+                <p class="subscribe-des">Subscribe to our newsletter and stay updated with the latest news, exclusive offers, and insights delivered to you.</p>
+                <div class="subcribe-card">
+                    <input type="email" name="" id="" class="subscribe-email-text subscribe-email" placeholder="Enter your email here">
+                    <input type="submit" value="Subscribe" class="subscribe-email btn-primary-4" >
+                </div>
+                <p class="subscribe-des">We promise not to spam you!</p>
+            </section>
     </main>
     <footer>
-        
+        <div class="footer-main">
+            <div class="footer-text">
+                <h3>Bangladesh 2.0</h3>
+            </div>
+            <hr>
+            <div class="icon">
+                <img src="B11A1--assignment-1/assets/facebook.png" alt="" class="icon-img">
+                <img src="B11A1--assignment-1/assets/instagram.png" alt="" class="icon-img">
+                <img src="B11A1--assignment-1/assets/x.png" alt="" class="icon-img">
+            </div>
+           
+        </div>
     </footer>
     
 </body>
