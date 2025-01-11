@@ -303,6 +303,16 @@ body{
     border-radius: 20px;
     margin-bottom: 20px; 
 }
+.news-card-3{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 44px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 70px; 
+}
 .news-card-titel{
     font-size: 26px;
     font-weight: 700;
